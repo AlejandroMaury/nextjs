@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 7px 15px;
+  margin: 4px;
+  border-radius: 6px;
+  border: 1px solid black;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+nav a:hover {
+  color: #0f0f0f;
+  background-color: white;
+}
+
+.caja {
+  width: 50%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  vertical-align: top;
+}
+
+.personas {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nasa-title {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+nav {
+  font-family: var(--mifont);
+}
