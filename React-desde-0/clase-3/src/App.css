@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: beige;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 25px;
+  color: #45fe;
+  margin: 0 125px;
+}
+
+.name > button {
+  position: relative;
+  left: 20%;
+  border-radius: 5px;
+  background-color: #eeef3e;
+  color: black;
+  width: 125px;
+  font-weight: bold;
+}
+
+.counter {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.counter > button {
+  width: 200px;
+  height: 65px;
+  border-radius: 5px;
+  background-color: #7cef3e;
+  color: black;
+}
+
+button:hover {
+  background-color: aliceblue;
+}
+
+.calculator {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  color: red;
+  padding: 5px;
+  gap: 15px;
+}
+
+.calculator > input {
+  line-height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  color: black;
+  border: 2px solid blue;
+}
+
+.calculator > button {
+  width: 160px;
+  height: 45px;
+  background-color: chocolate;
+}
+
+.mensajero {
+  margin-top: 58px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mensajero > button {
+  border: 2px solid red;
+  border-radius: 4px;
+  width: 95px;
+  background-color: antiquewhite;
+  color: black;
+  margin-left: 58px;
+}
+
+.mensajero > button:hover {
+  background-color: cadetblue;
+}
+
+.ciudad {
+  color: rgb(0, 38, 255);
+}
+
+.equipo {
+  color: rgba(16, 28, 118, 0.745);
+}
+
+.converter {
+  margin: 15px 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 25rem;
+  height: 40rem;
+  border: 1px solid black;
+  position: relative;
+  left: 50%;
+  box-shadow: 6px -3px 5px teal;
+}
+
+.cajas > input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50%;
+  color: #f4c73e;
+  text-align: right;
+  width: 150px;
+  outline: none;
+  font-size: 2.5rem;
+}

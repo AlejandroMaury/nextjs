@@ -1,6 +1,7 @@
 
 import "../styles/styles.css"
 import Nav from "@/styles/components/Nav"
+import Footer from "@/styles/components/Footer"
 import { Roboto } from "@next/font/google"
 
 const roboto = Roboto({
@@ -20,10 +21,12 @@ export default function RootLayout({ children }) {
     <html lang="es ">
       <body>
         <Nav />
+
         <div className={roboto.className}>
 
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   )

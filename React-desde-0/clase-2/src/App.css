@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #afa9a9;
+}
+
+img {
+  width: 355px;
+  height: 425px;
+}
+
+.caja {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 50%;
+  margin: 58px;
+  width: 100px;
+  font-size: xx-large;
+  font-style: italic;
+
+  user-select: none; /* para que el usuario no selecione con el mouse  */
+}
+
+.boton {
+  margin-left: 150px;
+  padding: 5px 10px 15px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: dashed;
+  color: white;
+  background-color: blue;
+}
+
+.imagen {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagen > .campo {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 150px;
+  padding: 25px;
+}
